@@ -1,0 +1,1265 @@
+<testing>
+<text file="Verify2Valid+//a1.xml">
+  <body>
+
+Forecast			Actual		
+	<NAME/>	ISO	ECP	Demand	ECP	
+PEAK	35,206	33,900	$20.21	33,833	$26.22	
+OFF PEAK	26,144	27,900	$14.08	27,495	$15.14	
+24 HOUR	28,460	28,617	$18.17	28,626 	$22.53	
+						
+HE1	22,337	23,200	$14.08	23,366	$17.26	
+HE2	21,215	22,100	$12.91	22,107	$14.88	
+HE3	20,600	21,500	$12.24	21,703	$15.67	
+HE4	20,364	21,600	$12.19	21,423	$11.80	
+HE5	20,805	22,300	$12.29	21,797	$12.58	
+HE6	22,601	24,300	$14.85	23,401	$14.86	
+HE7	26,144	27,900	$17.99	27,495	$19.23	
+HE8	28,675	30,100	$19.28	30,003	$21.74	
+HE9	29,785	30,600	$20.00	30,743	$19.24	
+HE10	30,483	30,800	$21.07	31,313	$30.39	
+HE11	31,165	31,100	$20.86	31,637	$31.08	
+HE12	31,494	31,100	$19.08	31,717	$22.55	
+HE13	31,530	31,200	$18.43	31,493	$24.12	
+HE14	31,680	31,200	$19.22	31,411	$25.60	
+HE15	31,734	31,100	$18.00	31,131	$19.36	
+HE16	31,676	31,000	$18.00	31,015	$18.70	
+HE17	32,997	31,600	$21.42	31,957	$79.96	
+HE18	35,206	33,900	$30.71	33,833	$33.00	
+HE19	34,596	33,300	$26.27	33,332	$18.33	
+HE20	33,091	32,200	$20.00	32,145	$18.35	
+HE21	31,621	31,200	$18.18	31,162	$21.70	
+HE22	30,052	29,700	$17.44	29,873	$19.47	
+HE23	27,811	27,900	$15.46	27,847	$15.94	
+HE24	25,370	25,900	$16.12	25,113	$14.82
+</body>
+</text>
+
+<text file="Verify2Valid+//a10.xml">
+  <body>
+
+Here's your Gas Daily pricing.
+
+We'll see you tomorrow!  (Wish me luck driving for so long with Lucci)
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a100.xml">
+  <body>
+
+Actually, there was one new development late yesterday. Frazier wasn't entirely comfortable with having <NAME/> Fastow in that role in the first place since he may have had access to transportation/capacity information in his capacity as CFO of <NAME/> Corp. The same concern would, of course apply to <NAME/> Fastow's successor. That was why Frazier had suggested <NAME/> Olsen. I spoke with <NAME/> <NAME/> and told her about this concern. She understands, but continues to feel that we should be able to come up with someone who is more substantively involved in <NAME/>'s underlying businesses but who does not have access to transportation/capacity information. I'll work with Frazier to see if we can identify someone. So, let's hold off for now in contacting <NAME/> McMahon. I'll keep you updated. Thanks.
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a102.xml">
+  <body>
+
+Thanks, I will have my assistant call to set a date and time.  <NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a103.xml">
+  <body>
+
+The report named: NG - PROPT P/L <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=11/13/2001>, published as of 11/13/2001 is now available for viewing on the website.
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a105.xml">
+  <body>
+
+I think <NAME/> is going to $10.  I've been quite concerned for
+the last month+.  It looks like a number of the senior execs have
+done some questionable acts.  It's been quite the moral buster.  They
+need to clean shop and get rid of the CEO and entire board for
+letting these types of actions occur.  We will never regain investor
+confidence until this occurs.  
+
+The problem with ENE is that we make an incredible amt of money on 
+the wholesale side of the energy business (natural gas and power) but
+we have thrown money at a myriad of bad businesses that lost lots of
+money (Azurix water co., broadband, residential marketing.  They need
+to get someone in here that will eliminate these losers and focus on
+the core businesses.  In my opinion, some of these execs, former and current,
+should go to jail.  It's amazing how a group of guys could ruin a great 
+company.  I'm sure there will be a grad school case study and a book
+written about this.  I'm sure it will be a best seller.
+
+Anyway, let me get off my soapbox.  I'm glad to hear you got a new job.
+That would be great if <NAME/> gets the package and looks for something
+more enjoyable.  Congrats to you brother and make sure you tell your
+folks I was asking about them. 
+
+<NAME/> and I haven't finalized any plans to NJ in Jan but I'll let you
+know as soon as we do.  We're both looking forward to hooking up
+with you guys.
+
+Conway won't have to go overseas.  He said he's the last one they'll
+activate.  His cell phone # is 240-298-7007.  I have to look for his 
+email but i'll let you know when I find it.  
+
+Take care and good to hear from you.
+
+<NAME/>
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a107.xml">
+  <body>
+
+<NAME/>:
+Wanted to get your comments on your conversation with <NAME/>.  I think it would be good if we put something together using the information I have combined with what you would like to show them.  Then think about going up there pretty soon.  Let me know what you think.
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a108.xml">
+  <body>
+
+COLLEGE STATION, Texas (AP) - Football practice was delayed on Tuesday
+ for nearly two hours at Texas A&M University.
+
+One of the players, while on his way to the locker room, happened to
+look down and notice a suspicious looking, unknown white powdery
+substance on the practice field. Practice was immediately suspended by
+Coach R.C.
+Slocum while the FBI was called in to investigate.
+
+After a complete field analysis, the FBI determined that the foreign
+white substance that they found was the goal line.
+</body>
+</text>
+
+<text file="Verify2Valid+//a109.xml">
+  <body>
+
+Man I hear you.  I have faith in Stoops but I am a little worried.  On the other hand, our offense certainly hasn't dominated anyone this year.  It is a question of what to go with; productive with mistakes or less productive and fewer mistakes.
+</body>
+</text>
+
+<text file="Verify2Valid+//a11.xml">
+  <body>
+
+I entered an annuity for april thru september.  We should bill them for October the first of next week and on the first of each month thereafter.
+</body>
+</text>
+
+<text file="Verify2Valid+//a110.xml">
+  <body>
+
+O:\Portland\WestDesk\Middlemarket\Administrative_Info\Coverage\Chris Foster\Fixed PRice Business\2001\Sep01
+</body>
+</text>
+
+<text file="Verify2Valid+//a111.xml">
+  <body>
+
+<NAME/>:
+
+	Attached you will find a Gas Agreement for OGE Energy Resources, Inc.  This would also serve as the template for GISB contracts.  Let me know your thoughts.
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a112.xml">
+  <body>
+
+Berkeley, California bans U.S. Flags from being displayed on city fire
+trucks because they didn't want to offend anyone in the  community.
+
+In an "act of tolerance" the head of the public  library at Florida Gulf
+Coast University ordered all "Proud to be an  American" signs removed so as
+to not offend international students.
+
+I, for one, am quite disturbed by these actions of  so-called American
+citizens; and I am tired of this nation worrying  about whether or not we
+are offending some individual or their culture.  Since the terrorist
+attacks on September 11, we have experienced a surge  in patriotism by the
+majority of Americans. However, the dust from the attacks had barely
+settled in New York and Washington D.C. when the  "politically correct"
+crowd began complaining about the possibility that  our patriotism was
+offending others.
+
+I am not against immigration, nor do I hold a grudge against anyone who is
+seeking a  better life by coming to America. In fact, our country's
+population is  almost entirely comprised of descendants of immigrants;
+however, there  are a few things that those who have recently come to our
+country, and  apparently some native Americans, need to understand.
+
+First of  all, it is not our responsibility to continually try not to
+offend you  in any way. This idea of America being a multi-cultural
+community has  served only to dilute our sovereignty and our national
+identity. As  Americans, we have our own culture, our own society, our own
+language,  and our own lifestyle. This culture, called the "American Way"
+has been  developed over centuries of struggles, trials, and victories by
+millions  of men and women who have sought freedom. Our forefathers fought,
+bled,  and died at places such as Bunker Hill, Antietam, San <NAME/>, Iwo
+Jima,  Normandy, Korea, Vietnam.
+
+We speak English, not Spanish, Arabic,  Chinese, Japanese, Russian, or any
+other language. Therefore, if you  wish to become part of our society --
+learn our language!
+
+"In  God We Trust" is our national motto. This is not some off-the-wall,
+<NAME/>, Right Wing, political slogan -- it is our national motto. It is
+engraved in stone in the House of Representatives in our Capitol and it is
+printed on our currency. We adopted this motto because <NAME/>  men and
+women, on <NAME/> principles, founded this nation; and this is  clearly
+documented throughout our history. If it is appropriate  for our motto to
+be inscribed in the halls of our highest level of  Government, then it is
+certainly appropriate to display it on the walls  of our schools.
+
+God is in our pledge, our National Anthem,  nearly every patriotic song,
+and in our founding documents. We honor His  birth, death, and resurrection
+as holidays, and we turn to Him in prayer  in times of crisis. If God
+offends you, then I suggest you consider  another part of the world as your
+new home, because God is part of our  culture and we are proud to have Him.
+
+We are proud of our heritage and those who have so honorably defended our
+freedoms. We celebrate Independence Day, Memorial Day, Veterans Day, and
+Flag Day. We  have parades, picnics, and barbecues where we proudly wave
+our flag.  As an American, I have the right to wave my flag, sing my
+national  anthem, quote my national motto, and cite my pledge whenever and
+wherever I
+choose. If the Stars and Stripes offend you, or you don't  like Uncle <NAME/>,
+then you should seriously consider a move to another  part of this planet.
+
+The American culture is our way of life,  our heritage, and we are proud of
+it. We are happy with our culture and  have no desire to change, and we
+really don't care how you did things  where you came from. We are
+Americans, like it or not, this is our  country, our land, and our lifestyle.
+
+Our First Amendment gives every citizen the right to express his opinion
+about our government, culture, or society, and we will allow you every
+opportunity to do so. But once you are done complaining, whining, and
+griping about our flag, our pledge, our national motto, or our way of life,
+I highly  encourage you take advantage of one other great American freedom,
+the  right to leave.
+
+<NAME/> Loudermilk
+If you agree, pass this  onto other Americans!!
+It is time to take a  stand!!
+</body>
+</text>
+
+<text file="Verify2Valid+//a113.xml">
+  <body>
+
+<NAME/> ---
+
+Effective 5/1/01 through 10/31/01 we have a 10,000 MMBtu/d index put at Dominion South Point to PSEG.  We can do as much as we want in any month, within the 0-10,000 MMBtu/d parameters, but we can do no more than 920,000 MMBtu for the whole term.  We need to keep a running tally of how much we use.  Starting on Monday, can we keep this tally on the morning sheet and update it daily?
+
+<NAME/>
+</body>
+</text>
+
+
+
+
+<text file="Verify2Valid+//a117.xml">
+  <body>
+
+<NAME/>,
+I was looking at Path Manager and it doesn't look to me like they even pathed this CAN point.  Let me know what you find out - <NAME/> Bergeron at Woodward is expecting a call back from us (<NAME/> Lucci) today.  
+Thanks.
+
+<NAME/>.
+
+(The invoice they received must be based on nominations - right?)
+</body>
+</text>
+
+<text file="Verify2Valid+//a118.xml">
+  <body>
+
+Good luck with the grass!  I can't even get my little yard covered.  Yeah, I'm open to going out with new people.  Just not really pursuing it just yet.  Depends on how long before I really feel the need :).  Actually, I'm more interested in just making some new friends right now.  I've decided I need a few gay friends to hang out with.  That will get me out meeting more people for other stuff too.
+
+Yeah, mom and dad got back over the weekend.  They had a good time, sounds like they did nothing but shop!  She's been going to MD <NAME/> for a while now.  In fact they did bloodwork yesterday and she goes in to see the doctor today.  Anyway, that's the scoop from this side of the Atlantic....
+
+<NAME/>
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a12.xml">
+  <body>
+
+It probably won't be available until after the Holiday.   The reason I say that is because we haven't received the bill from Public Service yet. 
+
+Are you out any time from now until the end of the month?
+</body>
+</text>
+
+<text file="Verify2Valid+//a120.xml">
+  <body>
+
+<NAME/> and <NAME/>:
+
+	In light of current circumstances, if a counterparty has both a Master Firm and a GISB, please confirm all firm physical transactions (both telephonic and EOL) under the Master Firm and not the GISB.
+
+	Additionally, could one of you provide me a list of EOL counterparties who have a GISB contract listed as their master agreement for EOL.
+
+Thanks,
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a121.xml">
+  <body>
+
+I would love to, but I cannot.  Thanks for the offer.  You should be getting a call today from one of our lawyers re a potential deal.  Take care.  <NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a122.xml">
+  <body>
+
+<NAME/>:
+Sorry about not getting back with you.  I am actually out in Vail/Beaver Creek, working on my skiing, since now is a pretty good time to work on that.  I am still interested in talking with your contacts.  I will call you tomorrow morning.  I hope all is going well and I'll talk to you soon. Thanks again for your patience and help with this issue.
+Regards,
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a123.xml">
+  <body>
+
+<NAME/>,
+I am trying to confirm that the following plants receive gas off of these
+respective meters on NWPL:
+
+Ferndale, WA plant (reduced capacity) -  meter 472
+Wematchee, WA plant (closed) - 446
+Longview, WA plant (closed) - 227
+Troutdale, OR plant (closed) - 302
+
+Could you confirm that the Troutdale plant is a direct connect and does not
+nominate through the Cascade LDC?
+This may be best answered by whomever schedules your supply.
+
+Also, it would be extremely helpful if you could tell me when the
+above plants closed or reduced capacity.
+
+I appreciate any help you can give me.
+Thanks,
+</body>
+</text>
+
+
+
+<text file="Verify2Valid+//a126.xml">
+  <body>
+
+what do you think about having another get together at our house on saturday.....we could barbeque or come up with something else.....it's so nice outside...i think we should take advantage of the weather.  let me know.
+</body>
+</text>
+
+<text file="Verify2Valid+//a127.xml">
+  <body>
+
+i'm out......i'm not a big fan of trucking to the woodlands...especially during the week.  thanks though.
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a129.xml">
+  <body>
+
+Sergei,
+To avoid duplicates I would prefer to pay for only the 18 Big Stalin Russian Political 
+Posters (1013259638).
+Thank you very much for your understanding. I am transferring funds to Paypal now in the 
+amount of:
+$16.50 (item) + $27.50 (shipping) = $44.00 (total)
+
+In 3-4 business days a Paypal transfer will be made to ezyroll@aol.com.
+
+Is this shipping from overseas? If so, perhaps this should be insured. Let me know.
+My address is:
+
+JASON WOLFE
+2300 W ALABAMA  APT 6
+HOUSTON, TX 77098
+
+Thanks,
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a13.xml">
+  <body>
+
+The report named: NG - PROPT P/L <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=11&report_name=NG+-+PROPT+P/L&category_cd=5&category_name=FINANCIAL&toc_hide=1&sTV1=5&TV1Exp=Y&current_efct_date=10/25/2001>, published as of 10/25/2001 is now available for viewing on the website.
+</body>
+</text>
+
+<text file="Verify2Valid+//a130.xml">
+  <body>
+
+As I sit here this Wednesday morning and watch ENE trade $15.80 I can not begin to explain the pit in my stomach.  I have been an employee of <NAME/> since June of 1984, I have never written a memo to my CEO to express opinions and or ask direct questions. 
+	I can not believe that the individuals that are responsible for this catastrophe are still employed.  And I guess I need to understand why?  FIRED THEM !   It is apparent to me  that the information we have given to the market place is not sufficient enough.  "THEY" don't trust us anymore.  Get a plan of action, attack it, and save this company.
+</body>
+</text>
+
+
+
+<text file="Verify2Valid+//a133.xml">
+  <body>
+
+Attached is the interconnect data sheet for Athens.  You and Raimund may want to update it for site specific criteria that has been identified since they changed the power plant site point.
+</body>
+</text>
+
+<text file="Verify2Valid+//a134.xml">
+  <body>
+
+<NAME/>:
+I think we may be past due on when we need to play by, but thats fine.  I think Saturday works for me as well.  I know things are quite busy right now, so good luck with everything.
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a135.xml">
+  <body>
+
+Thanks for the tickets.  We had a great time.  They were actually dead center of the covered area...perfect......and much better than the field considering the lightening storm and heavy downpour that lasted about an hr.   We even got sprayed by some bi-directional rain..it was wild.
+Anyways, thanks again.
+Mo.
+</body>
+</text>
+
+<text file="Verify2Valid+//a136.xml">
+  <body>
+
+Thanks.  Give me a ring when you have a chance.  I baked both the cakes last night.  Love to tell you about it.
+By the way...that is the best damn chocolate cake i have ever had...that was exactly what i was looking for.
+Talk to you later.
+
+Mo.
+713-853-1917
+</body>
+</text>
+
+<text file="Verify2Valid+//a137.xml">
+  <body>
+
+<NAME/>,
+
+			<NAME/> and I will participate in tomorrow's meeting. We will be in my office (extension 35269). Thanks.
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a139.xml">
+  <body>
+
+i know that power will open at 6:30.  will the gas markets be open then?  we figured that we might go with 7 so that both were open.
+</body>
+</text>
+
+<text file="Verify2Valid+//a14.xml">
+  <body>
+
+http://news.bbc.co.uk/hi/english/business/newsid_1196000/1196928.stm
+"Aeroflot was able to get rid of most of its oldest planes. It has not crashed once in the past 10 years and its safety record is now considered equal to that of British Airways and Air France. " 
+	<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a140.xml">
+  <body>
+
+<NAME/>,
+Could these numbers be loaded into the db for October? These are cyc 13
+pulled from Citrix, up to the 30th, incl points not grabbed by the HTML scraper.
+Thanks,
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a141.xml">
+  <body>
+
+Select pts.REF_PERIOD_DT, pts.CURVE_AMT FROM EGS.EGS_CURVE_DEF def, EGS.EGS_CURVE_POINTS pts WHERE def.CURVE_DEF_ID = pts.CURVE_DEF_ID AND def.CURVE_CD='NG' AND def.BOOK_TYPE_CD='P' AND def.CURVE_TYPE_CD='PR' AND def.EFFECTIVE_DT = TO_DATE('01-Oct-2001','DD-MON-YYYY')AND pts.REF_PERIOD_DT BETWEEN TO_DATE('01-Nov-2001','DD-MON-YYYY') AND TO_DATE('01-Oct-2007','DD-MON-YYYY') order by pts.REF_PERIOD_DT
+</body>
+</text>
+
+<text file="Verify2Valid+//a142.xml">
+  <body>
+
+<NAME/>,
+I'm sure you've already noticed this, but our cell phones have been disconnected.  
+
+I thought maybe we could pay for the bill on a credit card and turn it in on an expense report. <NAME/> Helton is trying to find someone to get guidance from as far as getting this bill paid.  She said in <NAME/> they are no longer paying for parking or cell phones but she wasn't sure about satellite offices.  She would hate to see us not get our expense reports paid.
+
+I'll keep you posted.
+</body>
+</text>
+
+<text file="Verify2Valid+//a143.xml">
+  <body>
+
+<NAME/>-
+
+Superior is right.  One of the deals listed as baseload was really term.  <NAME/> is going to adjust the tickets.  Fill deals 778088 and 933354 first, then 939542, then the gda deal 939300.  Sorry for the confusion.
+
+Thanks,
+
+<NAME/> Pereira
+</body>
+</text>
+
+<text file="Verify2Valid+//a144.xml">
+  <body>
+
+Mom,
+That's sounds fine to me.  Would they go horse back riding that day or a different day?  Where they live will there be things for the kids to do?  It sounds like they have a lot of kids around so there should be things for them to do.
+
+I talked to Jan this morning about a bigger cabin and the 10 person one is the biggest one.  She called and reserved another 4 person one for $100.  I'm gonna call <NAME/> and let him know that he and <NAME/> can have that one.
+
+I'll call you at work too  because I'm never sure if you get these e-mails from me.
+
+<NAME/>
+</body>
+</text>
+
+
+
+<text file="Verify2Valid+//a17.xml">
+  <body>
+
+Hey there,
+No apologies necessary.  Actually yesterday I was knee deep in strawberry jam.  I spent a great part of the afternoon tied up with that at home.  Made 12 jars and they go fast...I may do some more canning this weekend.  
+Friday sounds great....just let me know what time.  Take care and talk to you soon,
+Mo.
+</body>
+</text>
+
+<text file="Verify2Valid+//a18.xml">
+  <body>
+
+<NAME/>:
+
+	I am forwarding this to you for your delegation or response since it is a financial swap.
+
+Thanks,
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a19.xml">
+  <body>
+
+I sincerely apologize if I said anything offensive, and really do appreciate everyone who is trying to help us solve our problems.  At this time we are suffering a severe crisis of investor confidence, and we were only trying to be honest about the things we have done as a company.  I certainly know as well as anyone else that many of these investment decisions were made by people who are long gone.  Hopefully those of us who are here can correct their mistakes.
+
+I really do recognize and appreciate your work.
+</body>
+</text>
+
+<text file="Verify2Valid+//a2.xml">
+  <body>
+
+This is very good, just like the real thing!  Did you try to call my cell yesterday, it rang and your cell number popped up on the caller ID but when I answered there was no reponse.  I hope that you know that it is OK for you to call me when you want to.  Drop me a line or call and tell me what night is good for you this week.
+
+Take care,
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a20.xml">
+  <body>
+
+I will be there tomorrow at 3:45....  Do you know about what time Mr. Fullenweider will be calling so I can give you the phone number.  I leave work around 3:30.  Whatever time is best for him!
+
+
+Thanks again,
+
+-Joe
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a22.xml">
+  <body>
+
+Kam,
+
+Did <NAME/> answer your question?  I've been in NYMEX hell all day and I am not up on this issue.  Let me know if I can help further.
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a23.xml">
+  <body>
+
+<NAME/>,
+
+Congratulations on your new job!  I certainly understand you leaving.  I really enjoyed working with you and I'll hate to see you go (At least before the rest of us get let go).
+
+<NAME/> was let go last Friday here along with another guy.  It's only <NAME/> Whitt, <NAME/> Lucci and myself left.
+
+I am working on the November producers today as a matter of fact.  I am hoping to complete them today or tomorrow morning.
+
+I have a walk through on my new house tomorrow afternoon and could possibly be moving on Monday or Tuesday, otherwise it'll be next Thursday.  I wanted to get all of this out of the way before my move.
+
+I'll get busy now and hopefully email you later today.
+
+Thanks,
+<NAME/>
+</body>
+</text>
+
+
+
+<text file="Verify2Valid+//a26.xml">
+  <body>
+
+cokes
+dr pepper
+(drinks for both houses, cococ& nana)
+ice (for both homes)
+plastic cups (for both homes)
+paper plates
+2 large cans of green beans (cut not french)
+2 cans of cream of mushroom soup
+milk
+Durkee canned onions (2 cans)
+buy a couple of pies (for nana house)
+
+
+I have bought tamales to take to both homes.
+thanks - Love you again
+</body>
+</text>
+
+<text file="Verify2Valid+//a27.xml">
+  <body>
+
+Please add a new user for read only access as follows:
+
+User Name:  Vol_Mgmt
+Password:  pdx2hou
+
+Please contact me at (503) 464-5070. My e-mail address is lisa.gang@enron.com for questions.  In addition, please delete the following individuals name as they are no longer working at <NAME/>:
+
+<NAME/> Semperger
+<NAME/> Purcell
+<NAME/> Bishop
+
+
+Thank You.
+</body>
+</text>
+
+
+
+<text file="Verify2Valid+//a3.xml">
+  <body>
+
+Sounds good based on 1 condition.  You and ML do not pick up everyone's dinner.
+We'll just go out to dinner and a show and we'll all split it.  Sounds like 
+fun.  Good idea - must've been ML's.
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a30.xml">
+  <body>
+
+<NAME/>:
+
+Should we get you, <NAME/> and me (and <NAME/> Bushman) together to flesh out the deal further for the term sheet?  <NAME/> and I have worked on a term sheet but it is pretty bare bones so far?
+
+<NAME/>
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a32.xml">
+  <body>
+
+Good Morning,
+
+So, you've been thinking about me!  I like to see that....  I don't have one of those pagers.  I went to the game yesterday and I didn't go back to the office.  Boy do we stink, kind of like UT!  Anyway, what time do you get in to H-town?  Have a safe trip!
+
+-me
+</body>
+</text>
+
+<text file="Verify2Valid+//a33.xml">
+  <body>
+
+The last two paycheck I've received have been wrong.  They do not include the deferral portion of my contract-- it's $1,606 per pay period.  It should show up under earnings.   Could you please help me get this straightened out?  I can easily show us the error.  Thanks, <NAME/>.
+</body>
+</text>
+
+<text file="Verify2Valid+//a34.xml">
+  <body>
+
+JAY I CHANGED THE SEPT. SCHEDULE.  YOU WILL NOT WORK THE LAST WEEKEND IN SEPT.  YOU WILL WORK MON-THUR.  FOR THE LAST WEEK.  I DID THIS SO YOU COULD GET THE EXTRA WORK DURING THE DAY SHIFTS.  THAT IS ALL
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a36.xml">
+  <body>
+
+<NAME/>,
+
+		Good to hear from you. I didn't bring the Starwood documents with me when I moved (can you believe that I forgot them?!!!), so I'm going off of memory. I believe that we are obliged to at least offer lease financing to Starwood if the conditions precedent to financing in the lease documents are satisfied. However, we do have the ability to pass through increased costs of capital that we incur as well as other appropriate costs to Starwood. 
+
+		<NAME/> things are going well.
+</body>
+</text>
+
+<text file="Verify2Valid+//a37.xml">
+  <body>
+
+Yeah, what a game.  That 7 - 3 score that held most of the game was a killer on the nerves.  Both Defenses looked very good.  Both offenses looked like they were playing very good defenses.
+
+I do like our coaching staff.  <NAME/> hasn't always had things go his way.  During his first season (7-5) he tried some different type plays and many didn't go his way including a fake field goal in the Independence Bowl that probably cost us the game.  That being said, he has had a pretty good string lately.
+
+Good luck with the rest of the season.
+
+Boomer Sooner,
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a38.xml">
+  <body>
+
+So <NAME/> is definitely returning?
+
+Is this job the new boating equivalent of your UH recruiting job? 
+Where you will clean less boats this year than anyone else in
+your position in the history of Triumph Boats?
+
+BTW, I have paid much more than $185 for a raw, water washdown, man-whore.
+</body>
+</text>
+
+
+
+<text file="Verify2Valid+//a40.xml">
+  <body>
+
+Please sign me up for the loser pool.
+
+My pick for this week is Chicago.
+
+The check is in the mail.
+
+Thanks!
+<NAME/> Platter
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a42.xml">
+  <body>
+
+<NAME/>,
+
+	To complete the information I provided to you yesterday, the name of the electric utility providing electric service to Transwestern's Bloomfield, New Mexico compressor station is: The City of Farmington Electric Department.
+
+	In addition, although not required for a Transwestern bankruptcy filing, the name of the electric utility providing electric service to Northern Natural's Hubbard, Iowa compressor station is: Midland Power Cooperative.
+</body>
+</text>
+
+<text file="Verify2Valid+//a43.xml">
+  <body>
+
+The enclosed Excel file contains the Top 42 Transmission Providers needed to physically move power in the Eastern Interconnect.  <NAME/> Rust will be the focus point for contacting the transmission providers and determining the means that we shall employ to ensure the execution of the pertinent Transmission Agreements.
+
+If there are any questions, please call <NAME/> Baughman or Corry Bentley.
+
+                                               
+
+The file also resides at M:\Electric\Transmission\Transmission Providers (Essential for Physical).xls
+</body>
+</text>
+
+<text file="Verify2Valid+//a44.xml">
+  <body>
+
+Report ID no. 2B266B6655BD4CEFA874
+
+I don't think there are any receipts outstanding .. Could you please tell me which ones you're missing???  This last report had a receipt for everything.
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a46.xml">
+  <body>
+
+<NAME/>,
+
+Take a look at this before you pass it on.  I haven't looked
+at it in a while.  Let me know if you get it and how it looks.
+
+Thanks,
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a47.xml">
+  <body>
+
+<NAME/>:
+What did you think of the presentation thus far and what other type of info are you looking for.  The rest of the presentation is not that strategy oriented like the pages I gave you, but I will go through it and see if any of the other pages will help.  The key is to get an idea of what they are trying to do so that you can craft in that fashion.  I am playing tennis at 3:00, but will call you later to talk more about the presentation and tomorrow's meeting.
+<NAME/>
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a49.xml">
+  <body>
+
+hey sweet cheeks....how the hell are ya????how's BPA?  i bet you will do so well there...let me know when you become the next vp of power...hey i'm not going to make it your party...i completely flaked....  can we get together for lunch or dinner next week?  i would love to see ya...
+
+lisa
+</body>
+</text>
+
+<text file="Verify2Valid+//a5.xml">
+  <body>
+
+Thanks for the compliment on my shirt today.....everyone gave me one but you!  Are you on your way to <NAME/>?  Hey can you get tickets to the baseball game???  Come on your a Big Wheel in @ <NAME/>.  When do you come back?
+
+Have a save trip
+
+-me
+</body>
+</text>
+
+<text file="Verify2Valid+//a50.xml">
+  <body>
+
+<NAME/>,
+Here are the producers for November for the Powder <NAME/> system.  I don't have Lost Creek yet - hopefully before you leave.
+
+Please call me if you see any problems.
+
+There will be no sales invoice this month for Crestone and I've told this to <NAME/> Dozier.
+
+I will get the gathering to <NAME/> tomorrow.
+
+Thanks again,
+
+<NAME/>
+
+(P.S. - you'll have to give me your new # so we can keep in touch)
+</body>
+</text>
+
+<text file="Verify2Valid+//a51.xml">
+  <body>
+
+If there is an <NAME/> next week, she will probably get an offer. Unless we are owned by Dynegy.
+Then I don't know. Either way, don't quit cleaning boats yet.
+</body>
+</text>
+
+<text file="Verify2Valid+//a52.xml">
+  <body>
+
+Ladies,
+Here's the revised September purchase.  Thank you <NAME/> for bringing this to my attention!  Sorry about the mix-up.
+
+Thanks,
+<NAME/>
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a54.xml">
+  <body>
+
+Please add <NAME/> Sarnowski and <NAME/> Cavanaugh to this list.  Their e-mail address is :
+
+julie.sarnowski@enron.com
+darren.cavanaugh@enron.com
+
+Thank You
+
+lisa
+</body>
+</text>
+
+
+
+<text file="Verify2Valid+//a57.xml">
+  <body>
+
+you have way too much free time on your hands.  You maybe should be back in bed and not at work causing trouble between already troubled employees.  Nice art work!!
+</body>
+</text>
+
+<text file="Verify2Valid+//a58.xml">
+  <body>
+
+Mr. Ried,
+
+I thought I'd drop you a line to inquire about the energy marketer position you have had open.  I understand you had the position open internally and that if you did not find a qualified candidate you would consider outside candidates.  I am currently awaiting an offer from UBS, the new owner of <NAME/>'s wholesale trading assets.  I want to reiterate my desire to return to Omaha and  to work for OPPD.  Please let me know of the status of your search for an energy marketer.
+I can be reached on my cell at 503-701-9736.
+
+Thanks!
+</body>
+</text>
+
+<text file="Verify2Valid+//a59.xml">
+  <body>
+
+Hey guys and gals our problems with pjm #'s has been cleared up at last.  A spreadsheet has been set-up to give us pjm #'s.  Its located in M:/ELECTRIC/24HR/NIGHTSHIFTDATA/PJMHOURLY.  The northeast guys will import their numbers into this spreadsheet everyday before they leave.  Our group will be responsible for the evening hours.  Please keep track of these when you come in to work the evening shift.  This procedure is temporary until the northeast guys start their 24 hour desk.  The start date for the northeast guys will be Nov. 1.  That is all!
+</body>
+</text>
+
+<text file="Verify2Valid+//a6.xml">
+  <body>
+
+Thanks <NAME/>.
+We have this on our "To Do" list but we just haven't gotten to it yet.
+
+I will add this to the folder and let you know when we get into it.
+
+<NAME/>
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a61.xml">
+  <body>
+
+<NAME/>,
+
+I have been on vacation since the middle of last week.  I have now received your multiple emails and vmails.  As you are well aware <NAME/> is dealing with a multitude of challenges at the current time.  I appreciate your and <NAME/>' patience regarding the possibility of <NAME/> creating and trading a TradersNews Cinergy product on EOL.  We are currently still evaluating the TradersNews historical data and market conditions pertaining to the viability of such a product.  I will contact you as soon as I am able to move forward with this project on this side.  The best way to reach me is currently via e-mail.
+
+Thanks,
+</body>
+</text>
+
+<text file="Verify2Valid+//a62.xml">
+  <body>
+
+Hey there,
+I don't have <NAME/>'s new email address.  I wanted to see if you all wanted to get together on the house on sunday.  We could grill something outside if you all want.  I'm not sure if <NAME/> and Terry have other plans.  I would like to bring over a cake.  Let me know what works.
+</body>
+</text>
+
+<text file="Verify2Valid+//a63.xml">
+  <body>
+
+Good Morning <NAME/>,
+
+I just got back from Thanksgiving vacation.  I'm in the process of updating my resume.  When I get it done, I will send you a copy via e-mail.  I hope you had a nice Thanksgiving.  I will be in touch soon.
+
+-Joe Stepenovitch
+</body>
+</text>
+
+<text file="Verify2Valid+//a64.xml">
+  <body>
+
+<NAME/>, <NAME/>,
+
+The new Las Vegas Pool product will bridge into sitara as -
+Pipe: Kern <NAME/> Gas Transmission
+Zone: Las Vegas
+Facility: UNA - Las Vegas
+
+It is buyer's choice; the pool consists of -
+<NAME/> <NAME/> (2-4015)
+Apex (2-4002)
+Blue <NAME/> (2-4016)
+Pecos (2-4013)
+Lone Mountain (2-4012)
+
+Pecos and Lone Mountain do not seem to be options when manually booking
+a deal in sitara. If they are not in the system they probably need to be set up.
+
+The meters will be determined before 10:30 during scheduling. The deals will
+bridge with the UNA - Las Vegas meter/facility.
+
+Let me know what you think.
+Thanks,
+<NAME/>
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a66.xml">
+  <body>
+
+Ladies,
+
+I am finished with July 01 and everything ties.
+
+Can you tell me who would handle the Enserco and Millenium sales?  <NAME/> I know you do the Retex sale.  
+
+Our numbers are correct in the system now.
+
+Please let me know if you have any questions.
+
+Thanks,
+<NAME/>
+(303) 575-6485
+</body>
+</text>
+
+<text file="Verify2Valid+//a67.xml">
+  <body>
+
+I don't think there are any receipts outstanding .. Could you please tell me which ones you're missing???  This last report had a receipt for everything.
+</body>
+</text>
+
+
+
+
+
+<text file="Verify2Valid+//a71.xml">
+  <body>
+
+<NAME/>,
+ 
+Here is my job description. I tried to make it broad to fit my possible move to another groups on the trading floor.
+ 
+Please let me know if you need any additional information.
+ 
+Vladi.
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a73.xml">
+  <body>
+
+<NAME/>, I just auto scheduled through the 29th.  We have had major system problems, We apologize for the delay.  Let me know if this worked.  I'm still not 100% confident regarding our system.
+
+lisa
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a75.xml">
+  <body>
+
+Hey guys,
+
+in light of my quickly approaching 26th birthday I wanted to invite you all to dinner on tuesday October 2nd. I hope that nice company (and plenty of alcohol) will help me to forget about my age for at least one evening.
+
+So, what do you say? 
+
+The place: Buca Di Beppo (Massimo can translate it for you), 5192 Buffalo Speedway. Map is attached. The place is really nice, not too expensive and a lot of fun. I think we could reserve a private room.
+
+Time: October 2nd  7:30PM.
+
+Please let me know if you can make it so I would know the exact number of people.
+
+<NAME/> to see y'all there.
+
+Vlad.
+</body>
+</text>
+
+<text file="Verify2Valid+//a76.xml">
+  <body>
+
+According to CNBC, the Dynegy deal is close, with an announcement today.
+I'm not really nervous; <NAME/>'s strength is its wholesale trading dept. 
+I'm not sure about non-core business and corporate hacks, though.
+We'll see how it all shakes out - it's really hard to believe it has come to this.
+<NAME/>
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a78.xml">
+  <body>
+
+It didn't down here b/c I watched it from 5:15 - 6pm unless it actually came
+on 4pm down here with the time difference.  I bet that's what happened.
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a79.xml">
+  <body>
+
+Good Morning Jonda,
+
+I would like to met with Mr. Fullenweider today if that is possible?  I'm going out of town Thursday thru Sunday of this week.  I think it is very important that I speak with him as soon as possible.  Please let me know if today is good for him.  Thanks again,
+
+-Joe
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a80.xml">
+  <body>
+
+<NAME/>,
+I left you a voice mail also, but I wanted to let you know I do know about these transactions.
+
+Please give me a call.
+<NAME/>
+<NAME/>
+(303) 575-6485
+</body>
+</text>
+
+<text file="Verify2Valid+//a81.xml">
+  <body>
+
+Hey there,
+
+I have a broker dinner on thurs.  These things can drag out...so I'm not sure I'll be able to stop by.
+Best of luck in school.  I enjoyed hanging out with you the short time we knew each other.  Forward me your new email address when you get one.  I'll write you if I take the plunge and reverse the long trading/short cooking spread.  Who knows.
+Take care,
+
+Mo
+also (moshuffle@hotmail.com)
+</body>
+</text>
+
+<text file="Verify2Valid+//a82.xml">
+  <body>
+
+Dad:
+I thought the article was very poistive, but started out a little on the "good old boy" side.  You are operating in a political minefield very effectively.  Keep up the great work.  Talk to you soon and have a good week.
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a83.xml">
+  <body>
+
+University of Texas police have smashed a suspected terrorist cell. 
+Three terrorists, Bin Losin, Bin Whinin, and Bin Cryin were apprehended 
+on the UT campus shortly after the defeat of the Longhorn football team
+by the University of Oklahoma Sooners. University police warn a fourth 
+terrorist, Bin Winnin, is still at large. However, sources within 
+the department concede that Winnin would be very conspicuous on the UT
+campus and suspect he has fled to the campus of Oklahoma University.
+</body>
+</text>
+
+<text file="Verify2Valid+//a84.xml">
+  <body>
+
+<NAME/>:
+
+	My next trip to the UK is scheduled for the week of November 5.  Is there anything specific you need me to address?
+
+Thanks,
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a85.xml">
+  <body>
+
+Now this is postive thoughts.   This is thinking the glass is half full.  I wish I were more like this.  Life would be so refreshing if we all stopped whinning and looked at life this away....
+
+I miss you, call me
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a87.xml">
+  <body>
+
+<NAME/>:
+
+	Thanks for the note.  Things are pretty crazy around here, but it is clear that lawyers will be around here for quite some time.  Anyway, hope all is well with you.  My bright note this fall was the Buckeyes win over "the State Up North".  Give my best to your family.
+
+	Have a great holiday.
+
+<NAME/>
+</body>
+</text>
+
+
+
+
+
+
+<text file="Verify2Valid+//a92.xml">
+  <body>
+
+Here it is again in case you didn't receive it.
+
+Call me if you have any questions.
+
+Thanks,
+<NAME/>
+(303) 575-6485
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a94.xml">
+  <body>
+
+Bobby....i'ts 10:35 am...do you know where <NAME/> is?  I'm trying to get in touch w/her and let her know that my mom's appt. got moved up.   She was going to go, but we can't get in touch w/her.
+
+<NAME/>
+</body>
+</text>
+
+
+<text file="Verify2Valid+//a96.xml">
+  <body>
+
+<NAME/>,
+
+This email is to notify Columbia Gas Transmission of <NAME/> North America's intention to exercise our right of first refusal for the subject contract.  By this notification, <NAME/> does not agree to continue the agreement beyond the current expiration date or match the highest value bid in any subsequent auction.  If you have any questions concerning this notification, please feel free to call me at (713) 853 - 7276.
+
+Thanks for your help,
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a97.xml">
+  <body>
+
+BL,
+
+Have you experienced any blackouts yet?  I think you'll see a lot this summer.
+What does everyone think about the situation?  Do they think it's a threat or not?  I think
+the state is in for a horrific summer - I hope it doesn't turn out that way, but it'll be incredibly
+difficult to avoid.
+
+<NAME/> everything's going well with work and with the family.  When's the next time you'll
+be in Dallas?  Let me know.
+
+<NAME/>
+</body>
+</text>
+
+<text file="Verify2Valid+//a98.xml">
+  <body>
+
+Just spoke with <NAME/>...the guys wife.  She says he has a grandfather clock repair tonight to do....not sure if 7 will work.  I told her we had just wanted to check it out while it was still daylight outside.  She is going to phone her hubby and get back with me.  I also gave her your name and cell phone.  She said that this truck is her husbands "baby" and it is breaking his heart to get rid.  Thats a good sign.  I'll talk to you later.
+</body>
+</text>
+
+
+</testing>
