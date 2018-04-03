@@ -96,18 +96,23 @@ def build_cnn_return_preds(inputs):
     attention_weighted_out = Add()([gated_out, attn_attributions])
     return (attention_weighted_out, attn_maps)
 
+
+#construct the model
 inputs = Input(shape=INPUT_SHAPE)
 preds, maps = build_cnn_return_preds(inputs)
 model = Model(inputs=[inputs], outputs=preds)
 optimizer = adam(lr=0.003)
 model.compile(optimizer=optimizer, loss=losses(maps), metrics=['accuracy'])
+#hydrate the inputs
 inputs = []
 labels = []
 for _, v in training_set.items():
     for x in v:
         inputs.append(x['text'])
         labels.append(x['author'])
+
 inputs = np.asarray(inputs)
 labels = np.expand_dims(to_categorical(np.asarray(labels)), 1)
+#train the model
 model.fit(inputs, labels, epochs=20, batch_size=100, shuffle='batch')
 model.save('./saved_model')
