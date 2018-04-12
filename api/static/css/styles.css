@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+
+div.directions {
+  width: 1000px;
+  height: 500px;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+}
+
+div.fileDrop {
+  width: 800px;
+  height: 300px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3%;
+  position: relative;
+}
+div#idBox {
+  display: none;
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  top: 40%;
+  left: 25%;
+}
+div#predBox {
+  display: none;
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  top: 60%;
+  left: 25%;
+}
+div.buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+button {
+  width: 100px;
+  height: 20px;
+}
+

@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link rel='stylesheet' href={{url_for('static', filename='css/styles.css')}}></link>
+    <script src={{url_for('static', filename='js/eventHandlers.js')}} type='text/javascript'></script>
+  </head>
+  <body>
+    <h1> Who wrote it? </h1>
+    <div class='directions'>
+    <p> Below is a file drop area where you can upload training data to be used by a neural network
+    for the purpose of learning which author wrote a certain piece of text. All you need to do it prepare a JSON file with
+    a certain structure, upload it here and click train. When the model is done training we will display the id of the model here.
+    Continue reading to understand the purpose of that ID.
+    </p>
+    <p> Alternatively you can provide a JSON file with an ID of an already trained model and a sample of text and we will use it to predict which
+    author from the model's training data we think has written your sample.
+    </p>
+    <p>
+      The JSON structure for training is { dataset: { x: [[INTEGERS]], y: [STRING] }, n_authors: INTEGER, vocab_size: INTEGER, input_shape: INTEGER }
+      <ol>
+        <li>x is a list of a list of integers that represent your text samples with their words replace by the integer that represents their index in your vocabulary list</li>
+        <li>y is a list of strings, which is the author as the index in your list of authors.</li>
+        <li>vocab_size is an integer representing how many distinct words your training set has.</li>
+        <li>n_authors is an integer that is the total number of authors your sample size contains</li>
+      </ol>
+    </p>
+    <p>
+      The JSON structure for prediction is { model_id: UUID, sample: [INTEGER] }
+      <ol>
+        <li>model_id is the id returned from the training operation.</li>
+        <li>sample is the text sample you want classified, it is in the same format as the individiual training samples from above.</li>
+      </ol>
+    </p>
+    </div>
+    <div class='fileDrop' ondrop='fileUploadHandler(event)' ondragover='dragHandler(event)'>
+      <div id="idBox">
+      </div>
+      <div id='predBox'>
+      </div>
+      <div class='buttons'>
+        <button onclick='trainClickHandler(event)'>Train</button>
+        <button onclick='predictClickHandler(event)'>Predict</button>
+      </div>
+    </div>
+  </body>
+</html>

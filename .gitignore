@@ -1,2 +1,4 @@
 .DS_Store
 pan_vectors.bin
+api/user_models/*
+api/__pycache__/*
