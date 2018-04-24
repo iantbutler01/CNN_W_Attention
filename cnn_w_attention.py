@@ -1,5 +1,5 @@
 from keras.models import Model
-from keras.layers import Dense, Conv2D, MaxPooling1D, Input, Embedding, Conv1D, AveragePooling1D, Flatten, Dot, Multiply, Activation
+from keras.layers import Dense, Conv2D, MaxPooling1D, Input, Embedding, Conv1D, AveragePooling1D, Flatten, Dot, Multiply, Activation, Dropout
 from keras.layers import Concatenate, Add, Lambda
 from keras.optimizers import adam
 from keras.utils.np_utils import to_categorical
@@ -8,7 +8,7 @@ from keras import backend as K
 from keras.callbacks import EarlyStopping
 import pickle
 import numpy as np
-INPUT_SHAPE = (400,)
+INPUT_SHAPE = (40,)
 N_AUTHORS = 70
 dicts = pickle.load(open('./dictionaries.p', 'rb'))
 training_set = pickle.load(open('./train_dataset.p', 'rb'))
@@ -60,7 +60,7 @@ def build_cnn_return_preds(inputs):
     attn_confidences = []
     attn_preds = []
     # Embed the words
-    embed = Embedding(len(dicts['r_dict']), 128, input_length=400)
+    embed = Embedding(len(dicts['r_dict']), 128, input_length=40)
     embedded_inputs = embed(inputs)
     #conv block 1
     shared1_out = shared1(embedded_inputs)
@@ -75,7 +75,7 @@ def build_cnn_return_preds(inputs):
     #conv block 2
     shared3_out = shared3(mp1_out)
     shared4_out = shared4(shared3_out)
-    mp2 = MaxPooling1D(pool_size=(50,))
+    mp2 = MaxPooling1D(pool_size=(5,))
     mp2_outs = mp2(shared4_out)
     #attn block 2
     attention2 = attention_layer(mp2_outs, 128)
@@ -83,8 +83,10 @@ def build_cnn_return_preds(inputs):
     attn_confidences.append(attention2[-1])
     attn_preds.append(attention2[-2])
     #predictions
+    dropout = Dropout(0.5)
+    dropout_outs = dropout(mp2_outs)
     fc_final = Dense(N_AUTHORS, activation='softmax')
-    fc_final_out = fc_final(mp2_outs)
+    fc_final_out = fc_final(dropout_outs)
     #network without attention confidence score
     confidence_layer = Dense(N_AUTHORS, activation='sigmoid')
     c_out = Lambda(lambda x: K.sum(x, axis=0))(confidence_layer(mp2_outs))
@@ -114,5 +116,5 @@ for _, v in training_set.items():
 inputs = np.asarray(inputs)
 labels = np.expand_dims(to_categorical(np.asarray(labels)), 1)
 #train the model
-model.fit(inputs, labels, epochs=20, batch_size=100, shuffle='batch')
+model.fit(inputs, labels, epochs=5, batch_size=30, shuffle='batch')
 model.save('./saved_model')

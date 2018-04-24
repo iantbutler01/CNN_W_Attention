@@ -1,11 +1,11 @@
 from keras.models import Model
-from keras.layers import Dense, Conv2D, MaxPooling1D, Input, Embedding, Conv1D, MaxPooling2D, Flatten
+from keras.layers import Dense, Conv2D, MaxPooling1D, Input, Embedding, Conv1D, MaxPooling2D, Flatten, Dropout
 from keras.optimizers import adam
 from keras.utils.np_utils import to_categorical
 from keras.callbacks import EarlyStopping
 import pickle
 import numpy as np
-INPUT_SHAPE = (400,)
+INPUT_SHAPE = (40,)
 N_AUTHORS = 70
 dicts = pickle.load(open('./dictionaries.p', 'rb'))
 training_set = pickle.load(open('./train_dataset.p', 'rb'))
@@ -21,7 +21,7 @@ shared3 = Conv1D(filters=128, kernel_size=5, padding='same', activation='relu')
 shared4 = Conv1D(filters=128, kernel_size=6, padding='same', activation='relu')
 
 def build_cnn_return_preds(inputs):
-    embed = Embedding(len(dicts['r_dict']), 128, input_length=400)
+    embed = Embedding(len(dicts['r_dict']), 128, input_length=40)
     embedded_inputs = embed(inputs)
     print(embedded_inputs.shape)
     shared1_out = shared1(embedded_inputs)
@@ -35,11 +35,13 @@ def build_cnn_return_preds(inputs):
     print(shared3_out.shape)
     shared4_out = shared4(shared3_out)
     print(shared4_out.shape)
-    mp2 = MaxPooling1D(pool_size=(50,))
+    mp2 = MaxPooling1D(pool_size=(5,))
     mp2_outs = mp2(shared4_out)
     print(mp2_outs.shape)
+    dropout = Dropout(0.5)
+    dropout_outs = dropout(mp2_outs)
     fc_final = Dense(N_AUTHORS, activation='softmax')
-    fc_final_out = fc_final(mp2_outs)
+    fc_final_out = fc_final(dropout_outs)
     print(fc_final_out.shape)
     return fc_final_out
 
@@ -56,6 +58,7 @@ for _, v in training_set.items():
         labels.append(x['author'])
 inputs = np.asarray(inputs)
 labels = np.expand_dims(to_categorical(np.asarray(labels)), 1)
+print(labels.shape)
 e_stop = EarlyStopping(monitor='loss', min_delta=0.001, patience=10, verbose=0, mode='auto')
-model.fit(inputs, labels, epochs=20, batch_size=100, shuffle='batch', callbacks=[e_stop])
+model.fit(inputs, labels, epochs=5, batch_size=30, shuffle='batch', callbacks=[e_stop])
 model.save('./saved_model')

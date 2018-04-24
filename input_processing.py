@@ -6,7 +6,7 @@ import re
 import itertools
 import json
 import pickle
-MAX_SEQUENCE_LEN = 400
+MAX_SEQUENCE_LEN = 40
 MIN_SEQUENCE_LEN = 5
 
 def reformat(files, dataset):
