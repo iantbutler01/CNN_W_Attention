@@ -9,7 +9,7 @@ from keras.callbacks import EarlyStopping
 import pickle
 import numpy as np
 INPUT_SHAPE = (40,)
-N_AUTHORS = 70
+N_AUTHORS = 3
 dicts = pickle.load(open('./dictionaries.p', 'rb'))
 training_set = pickle.load(open('./train_dataset.p', 'rb'))
 
@@ -46,7 +46,7 @@ def losses(maps):
     def combined_loss(y_true, y_pred):
         loss1 = categorical_crossentropy(y_true, y_pred)
         loss2 = frobinius_regulzarization(maps)
-        return loss1 + 0.1*loss2
+        return loss1 + 0.4*loss2
     return combined_loss
 
 def calculate_attention_weight(confidences, att_preds):
@@ -55,18 +55,17 @@ def calculate_attention_weight(confidences, att_preds):
         softmaxes.append(Lambda(lambda x: K.softmax(x[0]*x[1]))([x, y]))
     return Add()(softmaxes)
 
-def build_cnn_return_preds(inputs):
+def attn_build_cnn_return_preds(inputs):
     attn_maps = []
     attn_confidences = []
     attn_preds = []
     # Embed the words
-    embed = Embedding(len(dicts['r_dict']), 128, input_length=40)
+    embed = Embedding(len(dicts['r_dict']), 40, input_length=40)
     embedded_inputs = embed(inputs)
     #conv block 1
     shared1_out = shared1(embedded_inputs)
-    shared2_out = shared2(shared1_out)
-    mp1 = MaxPooling1D(pool_size=(5,), padding='same')
-    mp1_out = mp1(shared2_out)
+    mp1 = MaxPooling1D(pool_size=(32,), padding='same')
+    mp1_out = mp1(shared1_out)
     #attn block 1
     attention1 = attention_layer(mp1_out, 128)
     attn_maps.append(attention1[0])
@@ -74,9 +73,8 @@ def build_cnn_return_preds(inputs):
     attn_preds.append(attention1[-2])
     #conv block 2
     shared3_out = shared3(mp1_out)
-    shared4_out = shared4(shared3_out)
-    mp2 = MaxPooling1D(pool_size=(5,))
-    mp2_outs = mp2(shared4_out)
+    mp2 = MaxPooling1D(pool_size=(2,))
+    mp2_outs = mp2(shared3_out)
     #attn block 2
     attention2 = attention_layer(mp2_outs, 128)
     attn_maps.append(attention2[0])
@@ -97,24 +95,3 @@ def build_cnn_return_preds(inputs):
     #add the contributions from the attention heads
     attention_weighted_out = Add()([gated_out, attn_attributions])
     return (attention_weighted_out, attn_maps)
-
-
-#construct the model
-inputs = Input(shape=INPUT_SHAPE)
-preds, maps = build_cnn_return_preds(inputs)
-model = Model(inputs=[inputs], outputs=preds)
-optimizer = adam(lr=0.003)
-model.compile(optimizer=optimizer, loss=losses(maps), metrics=['accuracy'])
-#hydrate the inputs
-inputs = []
-labels = []
-for _, v in training_set.items():
-    for x in v:
-        inputs.append(x['text'])
-        labels.append(x['author'])
-
-inputs = np.asarray(inputs)
-labels = np.expand_dims(to_categorical(np.asarray(labels)), 1)
-#train the model
-model.fit(inputs, labels, epochs=5, batch_size=30, shuffle='batch')
-model.save('./saved_model')
