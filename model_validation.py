@@ -48,11 +48,12 @@ def pad_to_max_length(data, pad_token):
             continue
         doc[1].extend([pad_token]*(MAX_SEQUENCE_LEN-len(doc[1])))
 
-def train_model(build_fn, valid_x, valid_y):
+def train_model(build_fn, valid_x, valid_y, epochs, n_layers=1):
+    print(epochs, n_layers)
     dicts = pickle.load(open('./dictionaries.p', 'rb'))
     training_set = pickle.load(open('./train_dataset.p', 'rb'))
     inputs = Input(shape=INPUT_SHAPE)
-    preds, maps = build_fn(inputs)
+    preds, maps = build_fn(inputs, n_layers)
     model = Model(inputs=[inputs], outputs=preds)
     optimizer = adam()
     if not maps:
@@ -67,7 +68,7 @@ def train_model(build_fn, valid_x, valid_y):
     inputs = np.asarray(inputs)
     labels = np.expand_dims(to_categorical(np.asarray(labels)), 1)
     model.summary()
-    model.fit(inputs, labels, epochs=20, batch_size=100, shuffle='batch', validation_data=(valid_x, valid_y))
+    model.fit(inputs, labels, epochs=epochs, batch_size=100, shuffle='batch', validation_data=(valid_x, valid_y))
     model.save('./saved_model')
 
 
@@ -102,13 +103,13 @@ if action == 'eval':
 else:
     if action == 'fatt':
         print('Training Fasttext Attention Model')
-        train_model(build_cnn_return_preds, x_set, y_set)
+        train_model(build_cnn_return_preds, x_set, y_set, int(sys.argv[2]), int(sys.argv[3]))
     elif action == 'attention':
         print('Training Attention Model')
-        train_model(attn_build_cnn_return_preds, x_set, y_set)
+        train_model(attn_build_cnn_return_preds, x_set, y_set, int(sys.argv[2]), int(sys.argv[3]))
     else:
         print('Training Normal CNN Model')
-        train_model(build_cnn_return_preds, x_set, y_set)
+        train_model(build_cnn_return_preds, x_set, y_set, int(sys.argv[2]), int(sys.argv[3]))
 
 
 

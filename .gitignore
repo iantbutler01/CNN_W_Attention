@@ -3,3 +3,4 @@ pan_vectors.bin
 api/user_models/*
 api/__pycache__/*
 __pycache__/*
+models/*
