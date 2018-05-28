@@ -68,7 +68,6 @@ def build_cnn_return_preds(inputs):
     attn_preds = []
     # Embed the words
     embedding_matrix = load_word_embeddings('./pan_vectors.vec')
-    print(len(dicts['r_dict']))
     embed = Embedding(len(dicts['r_dict'])+1, 128, input_length=400, weights=[embedding_matrix], trainable=False)
     embedded_inputs = embed(inputs)
     #conv block 1
@@ -119,9 +118,8 @@ for _, v in training_set.items():
     for x in v:
         inputs.append(x['text'])
         labels.append(x['author'])
-
 inputs = np.asarray(inputs)
 labels = np.expand_dims(to_categorical(np.asarray(labels)), 1)
 #train the model
-model.fit(inputs, labels, epochs=20, batch_size=100, shuffle='batch')
+model.fit(inputs, labels, epochs=15, batch_size=100, shuffle='batch')
 model.save('./saved_model')
